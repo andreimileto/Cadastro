@@ -1,5 +1,7 @@
 <?php
 require_once 'DAO/pessoaDAO.php';
+
+
 class pessoaControl{
     
     function salvar($conexaoBD,$pessoa){
@@ -14,5 +16,22 @@ class pessoaControl{
         
         $pessoaDAO->salvar($conexaoBD, $pessoa);
         
+        
+    }
+    
+    function consultar(){
+//        $return = array();
+//         $pessoaDAO = new pessoaDAO;
+//        $arrayPessoa = $pessoaDAO->consultar($conexaoBD,$pessoa);
+       echo 'testeeeconsulta';exit;
+//        foreach ($arrayPessoa as $value){
+//            
+//            array_push($return, $arrayPessoa);
+//            $pessoaDAO = new pessoaDAO();
+//        }
+        
+    }
+    function teste(){
+        echo 'teste';exit;
     }
 }
