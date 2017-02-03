@@ -7,15 +7,13 @@ $pessoa = new pessoa;
 $pessoaControl = new pessoaControl;
 $conexaoBD = new conexaoBD;
 
-//$pessoaControl->salvar($conexaoBD, $pessoa);
+$pessoaControl->salvar($conexaoBD, $pessoa);
 
 
 
- $result = $pessoaControl->consultar($conexaoBD,$pessoa);
+// $result = $pessoaControl->consultar($conexaoBD,$pessoa);
  
- $registroEmEdicao = new pessoa;
- 
- $registroEmEdicao = $result[0]->getNome();
+ header('Location: index.php?nome=andrei');
  
  echo $result;
 
