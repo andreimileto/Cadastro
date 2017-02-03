@@ -5,7 +5,7 @@
         <title>Cadastro de pessoas</title>
     </head>
     <body>
-        <form action ="action.php" method="post"> <br><br>
+        <form action ="cadastroPessoa.php" method="post"> <br><br>
             Nome:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <input type="text" name="nome"/><br><br>
             cpf: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
@@ -18,6 +18,16 @@
            <button>
                Salvar
            </button>
+           
+           <select>
+               <option>
+                   Selecionar
+               </option>
+               <option>
+                
+               </option>
+               
+           </select>
        </form>
         <?php 
      
